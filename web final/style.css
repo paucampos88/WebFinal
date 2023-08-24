@@ -1,0 +1,766 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #ffffff;
+}
+
+h2 {
+	font-size: 200px;
+	font-weight: 1200;
+	color: #ff8b2c;
+}
+
+h3 {
+	font-size: 24px;
+	font-weight: 500;
+	margin-bottom: 25px;
+}
+
+h5 {
+	font-size: 16px;
+	color: #f8f54f;
+}
+
+
+
+p {
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: .05em;
+	color: #2a2d38;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+b {
+	font-weight: 700;
+}
+
+section {
+	padding: 100px 0px;
+}
+.title-block {
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.title-block p {
+	font-size: 20px;
+	font-weight: 300;
+	color: #8da2b5;
+	margin-bottom: 0px;
+}
+
+.divider {
+	padding: 2rem 0 0;
+    margin: 2rem 0 0;
+    border-top: 1px solid #3c3f45;
+}
+
+.divider-light {
+	padding: 2rem 0 0;
+    margin: 2rem 0 0;
+	border-top: 1px solid #edf1f2
+}
+
+.custom-navbar {
+	background-color:#f06910!important;
+	box-shadow: 0 2px 4px 0 rgba(54, 54, 54, 0.09);
+  height: 140px; /* Doble del tamaño original */
+  max-height: 200px;
+}
+
+.navbar-toggler {
+	font-size: 38px;
+	background-color: transparent;
+}
+
+.navbar-toggler:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+.navbar-toggler-icon {
+	color:  #f8751e;
+}
+
+.navbar-collapse {
+	background-color: #f8751e;
+}
+
+.nav-custom-link {
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: .05em;
+	margin-top: 12px;
+}
+
+.navbar a {
+	color: #ffffff !important;
+}
+
+.nav-custom-link {
+	font-size: 12px;
+	font-weight: bold; /* Añade esta línea */
+	letter-spacing: .05em;
+	margin-top: 12px;
+  }
+/* Agrega estilos para posicionar el logo centrado */
+.custom-navbar {
+	background-color: #f8751e!important;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.09);
+	height: 70px; /* Aumentar el espacio vertical */
+	max-height: 140px;
+  }
+  
+  .navbar-logo {
+	text-align: center;
+	margin-bottom: 10px; /* Espacio entre el logo y los botones */
+  }
+  
+  .nav-right {
+	text-align: center;
+  }
+  
+ 
+  
+/* ==============================================
+   3. Buttons
+===============================================*/
+
+.btn {
+	font-size: 14px;
+	font-weight: 400;
+	border-radius: 3px!important;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,.05), 0 1px 2px 0 rgba(0,0,0,.08);
+}
+
+.btn:hover {
+	text-decoration: none;
+}
+
+.btn-regular {
+	background-color: #0095f7;
+	color: #ffffff;
+	padding: 10px 25px;
+	letter-spacing: .1em;
+	margin-top: 25px;
+	display: inline-block;
+}
+
+.btn-regular:hover {
+	background-color: #1366ff;
+	color: #ffffff;
+}
+
+.btn-demo {
+	color: #ffffff;
+	background-color: #6772e5;
+	letter-spacing: .1em;
+	padding: 15px 48px;
+	display: inline-block;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.btn-demo:hover {
+	color: #0095f7;
+	background-color: #0095f7;
+}
+
+.btn-demo-small {
+	font-size: 12px;
+	background-color: #6772e5;
+	padding: 1px 4px;
+}
+
+.btn-demo-small:hover {
+	background-color: #636ee1;
+}
+
+.btn-demo-small a {
+	color: #ffffff!important;
+}
+
+.btn-buy {
+	color: #ffffff;
+	background-color: #0095f7;
+	letter-spacing: .1em;
+	padding: 15px 48px;
+	display: inline-block;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.btn-buy:hover {
+	background-color: #0095f7;
+	color: #0095f7;
+}
+
+/* ==============================================
+   4. Hero
+===============================================*/
+#hero-carousel {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el carrusel de imágenes */
+#hero-carousel {
+    position: relative;
+    overflow: hidden;
+    height: 100vh; /* Altura de pantalla completa */
+}
+
+.carousel-inner {
+    position: relative;
+    height: 100%;
+}
+
+.carousel-item {
+    position: absolute;
+    top: 100%;
+    transition: top 0.5s ease-in-out;
+}
+
+.carousel-item.active {
+    top: 0;
+}
+
+/* Estilos para el contenido */
+.hero-content {
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.hero-content p {
+    font-size: 18px;
+}
+
+/* Estilos para el botón */
+.btn-regular {
+    background-color: #e06f13;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.btn-regular:hover {
+    background-color: #c65c0f;
+}
+
+
+/* ==============================================
+   6. Testimonials
+===============================================*/
+/* Estilos para las cajas de testimonio */
+.testimonial-box {
+	background-color: #edf2f8;
+	box-shadow: 0 0 1px 0 rgba(0,12,32,0.04), 0 10px 16px 0 rgba(10,31,68,0.06);
+	border-radius: 50px;
+	padding: 20px 30px;
+	margin-bottom: 5px; /* Margen entre las cajas de testimonio */
+	height: 100%; /* Tamaño igual para todas las cajas de testimonio */
+  }
+  
+  .testimonial-box h6 {
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: .05em;
+	margin-top: 10px;
+	margin-bottom: 5px;
+  }
+  
+  .testimonial-box p {
+	font-size: 16px;
+	font-weight: 300;
+	margin-top: 25px;
+	line-height: 1.8;
+	padding: 0px;
+  }
+  
+  /* Resto de los estilos ... */
+  
+  
+#testimonials {
+	background-color: #f8751e;
+	border-top: 1px solid #f8751e;
+	border-bottom: 1px solid #f8751e;
+}
+
+/* Estilos para las cajas de testimonio */
+.testimonial-box {
+	background-color: #edf2f8;
+	box-shadow: 0 0 1px 0 rgba(0,12,32,0.04), 0 10px 16px 0 rgba(10,31,68,0.06);
+	border-radius: 50px;
+	padding: 20px 30px;
+	margin-top: 30px;
+  }
+  
+  /* Espacio reducido entre descripción y datos personales */
+  .testimonial-box p {
+	font-size: 16px;
+	margin-top: 10px; /* Ajusta el valor según tu preferencia */
+	padding: 0px;
+  }
+  
+  .personal-info {
+	padding: 5px 0 10px 0; /* Ajusta el valor según tu preferencia */
+	border-bottom: 1px solid #edf1f2;
+  }
+  
+
+
+.testimonial-box i {
+	color: #ffffff;
+}
+
+.testimonial-box small {
+	color: #8da2b5;
+	display: inline-block;
+}
+
+.testimonial-box span {
+	font-size: 14px;
+	color: #ffffff;
+}
+
+.rating {
+	background-color: #55b2ff;
+	padding: 2px 12px;
+	border-radius: 50px;
+}
+
+.profile-picture {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.review-one {
+  background-image: url('images/profile-picture-one.jpg');
+}
+
+.review-two {
+	background-image: url('images/profile-picture-two.jpg');
+  }
+.personal-info {
+	padding: 5px 0 20px 0;
+	border-bottom: 1px solid #edf1f2;
+}
+
+/* ==============================================
+   7. Pricing
+===============================================*/
+
+#pricing-title {
+	font-size: 48px; /* Duplica el tamaño del título */
+	font-weight: bold; /* Hace el título en negrita */
+	margin-bottom: 20px; /* Espacio inferior para separar de los elementos siguientes */
+  }
+  .pricing-box {
+	background-color: #ffffff;
+	padding: 40px 20px;
+	border: 1px solid #F8F9FB;
+	border-radius: 6px;
+	box-shadow: 0 0 1px 0 rgba(0,12,32,0.04), 0 10px 16px 0 rgba(10,31,68,0.06);
+	margin-top: 30px;
+  }
+  
+  .pricing-box h3 {
+	font-size: 22px;
+	font-weight: bold; /* Hace el título en negrita */
+	letter-spacing: .1em;
+	color: #0095f7;
+  }
+  
+  .pricing-box h6 {
+	font-size: 60px;
+	font-weight: 700;
+	color: #3a3f52;
+	margin-bottom: 0px;
+  }
+  
+  .pricing-box p {
+	font-size: 17px;
+	margin-top: 15px;
+	padding: 0px;
+  }
+  
+  .pricing-box ul {
+	padding-left: 10px;
+  }
+  
+  .pricing-box li {
+	font-size: 14px;
+	font-weight: 300;
+	color: #8da2b5;
+	letter-spacing: .1em;
+  }
+  
+  .pricing-box span {
+	font-weight: 500;
+	color: #0095f7;
+  }
+  
+  .pricing-box small {
+	color: #8da2b5;
+	letter-spacing: .2em;
+  }
+  
+  .pricing-box i {
+	font-size: 20px;
+	color: #03a727;
+	margin-right: 10px;
+  }
+  
+  .pricing-box .demo {
+	color: #03a727!important;
+  }
+  
+
+/* ==============================================
+   8. Call to Action
+===============================================*/
+
+#call-to-action {
+	background-image: url('images/imagen6.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+#call-to-action h2 {
+	color: #ffffff;
+	font-weight: bold;
+
+}
+
+#call-to-action p {
+	font-size: 20px;
+	font-weight: 300;
+	color: #ffffff;
+	opacity: .8;
+	margin-bottom: 40px;
+}
+
+#call-to-action .title-block {
+	margin-bottom: 0px;
+}
+
+#call-to-action .btn-regular {
+	background-color: #3593ff!important;
+	color: #ffffff!important;
+	font-weight: bold;
+	padding: 15px 45px;
+}
+
+#call-to-action .title-block {
+	margin-bottom: 0px;
+}
+
+/* ==============================================
+   RESERVAS
+===============================================*/
+/* Estilos para la Sección de Reserva */
+#reserva {
+  background-color: #f7f7f7;
+  padding: 80px 0;
+}
+
+#reserva h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #0095f7;
+  text-align: center;
+}
+
+#reserva form {
+  background-color:#0095f7;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.04), 0 10px 16px 0 rgba(40, 69, 119, 0.06);
+}
+
+#reserva label {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+#reserva .form-control {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#reserva .btn-primary {
+  background-color: #ffffff;
+  color:#0095f7;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+#reserva .btn-primary:hover {
+  background-color: #0191f0;
+}
+
+/* Estilos adicionales según tus preferencias */
+
+/* ==============================================
+   9. Footer
+===============================================*/
+
+footer {
+	background-color: #292c31;
+    padding: 60px 0;
+    color: #62656a;
+}
+
+footer h5 {
+	color: #aeb3bd;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	margin-bottom: 20px;
+}
+
+footer p {
+	font-size: 12px;
+	font-weight: 300;
+	color: #62656a;
+	text-align: justify;
+	padding: 0px;
+}
+
+footer li {
+	font-size: 14px;
+	font-weight: 300;
+	letter-spacing: .05em;
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+
+footer a {
+	color: #62656a;
+}
+
+footer a:hover {
+	color: #0095f7;
+	text-decoration: none;
+}
+
+footer i {
+	font-size: 25px;
+	color: #62656a;
+	margin-right: 10px;
+}
+
+footer i:hover {
+	color: #0095f7;
+}
+
+footer small {
+	color: #62656a;
+	float: right;
+}
+
+.external-links {
+	color: #0095f7;
+}
+
+/* ==============================================
+   9. Media Queries
+===============================================*/
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+	h2 {
+		font-size: 34px!important;
+		margin-bottom: 20px;
+		line-height: 1.6;
+	}
+	.title-block h2, p {
+		text-align: left;
+		padding: 0px 20px;
+	}
+
+	#call-to-action h2, p {
+		text-align: left!important;
+		padding: 0 20px;
+	}
+
+	#call-to-action {
+		background-image: none;
+		background-color: #0095f7;
+	}
+
+	footer {
+		padding: 60px 25px;
+	}
+	footer h5 {
+		font-size: 18px;
+		margin-top: 30px;
+	}
+	footer li {
+		font-size: 16px;
+		margin-bottom: 15px;
+	}
+	footer p {
+		font-size: 16px;
+	}
+	footer i {
+		font-size: 30px;
+		margin-right: 20px;
+	}
+	footer small {
+		float: left;
+		margin-top: 20px;
+	}
+}
+
+@media (max-width: 768px) { 
+	#hero h1 {
+		font-size: 34px!important;
+		margin-bottom: 20px;
+	}
+	#hero p {
+		font-size: 20px!important;
+	}
+}
+
+@media (max-width: 991px) { 
+	.nav-right {
+		float: left;
+	}
+	.nav-custom-link {
+		border-bottom: 1px solid #EEE;
+	}
+	.navbar-nav{
+		width: 100%;
+	}
+	.navbar-nav .nav-link {
+		padding: 20px 0;
+		text-align: left;
+	}
+
+	.btn-demo-small {
+		background-color: #ffffff;
+		border: 0px;
+		padding: 0px;
+		box-shadow: none;
+
+	}
+	.btn-demo-small:hover {
+		background-color: #ffffff;
+		border: 0px;
+		padding: 0px;
+		box-shadow: none;
+
+	}
+	.btn-demo-small a {
+		color: #53627C!important;
+	}
+	.nav-custom-link {
+		font-size: 13px;
+	}
+
+	.icon-mobile {
+		font-size: 18px;
+		float: right;
+	}
+
+	.navbar-collapse {
+		border-bottom: 1px solid #efefef;
+	}
+
+	.nav-logo-mobile {
+		margin: auto;
+		padding-right: 50px;
+	}
+
+	.nav-logo-desktop {
+		display: none;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	.icon-mobile {
+		display: none;
+	}
+	.nav-logo-mobile {
+		display: none;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+	.hero-content {
+		margin-top: 100px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	.pricing-box h3 {
+		font-size: 17px;
+	}
+	.pricing-box p {
+		font-size: 14px;
+	}
+	.pricing-box li {
+		font-size: 12px;
+	}
+	.btn-buy {
+		font-size: 12px;
+		padding: 15px 20px;
+	}
+	.btn-demo {
+		font-size: 12px;
+		padding: 15px 20px;
+	}
+	.profile-picture {
+		width: 50px;
+		height: 50px;
+	}
+	.testimonial-box h6 {
+		font-size: 14px;
+		margin-left: 10px;
+	}
+	.testimonial-box span {
+		font-size: 12px;
+	}
+	.testimonial-box small {
+		font-size: 12px;
+		margin-top: 4px;
+		margin-left: 10px;
+	}
+}
